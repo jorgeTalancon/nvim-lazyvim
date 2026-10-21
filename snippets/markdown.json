@@ -1,0 +1,16 @@
+{
+  "pelican-post": {
+    "prefix": "post",
+    "body": [
+      "Title: ${1:Post Title}",
+      "Date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+      "Category: ${2:General, Projects}",
+      "Tags: ${3:aws, python, vim}",
+      "Status: ${4:draft, published, hidden, skip}",
+      "Summary: ${5:Brief description}",
+      "",
+      "$0"
+    ],
+    "description": "Pelican blog post"
+  }
+}
